@@ -1,1 +1,7 @@
-console.log('this js works!')
+new PageSlider({
+  pages: $('.page-wrap .page')
+});
+
+$(document).ready(function () {
+
+})
