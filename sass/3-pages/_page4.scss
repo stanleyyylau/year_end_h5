@@ -1,0 +1,61 @@
+.page3{
+  position: relative;
+  padding-top: 0.1rem;
+  background-image: url("../imgs/background.png");
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .three-man{
+    width: 6.12rem;
+    height: 5.426rem;
+    margin: 0 auto;
+  }
+
+  .last-info-box{
+    text-align: center;
+    position: relative;
+    background-image: url("../imgs/last_info_box.png");
+    background-size: cover;
+    width: 9.053rem;
+    height: 8.626rem;
+    margin: 0 auto;
+    .title{
+      font-size: 0.64rem;
+      color: #333333;
+      position: absolute;
+      top: 0.48rem;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+    }
+    .details{
+      font-size: 0.413rem;
+      color: #333333;
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 2.266rem;
+      line-height: 1.7;
+    }
+    .view-more{
+      display: block;
+      font-size: 0.28rem;
+      background-color: #fff100;
+      padding: 0.1rem 0.213rem;
+      width: 1.66rem;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0.533rem;
+      border-radius: 0.533rem;
+      color: black;
+      border: 1px solid #333333;
+    }
+  }
+
+}

@@ -1,0 +1,93 @@
+.page1 {
+  position: relative;
+  .background-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-box{
+    position: absolute;
+    padding: 0.5rem;
+    bottom: 2.133rem;
+    left: 1.466rem;
+    width: 6.8rem;
+    height: 4.4rem;
+    font-size: 0.346rem;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  .blue-attention{
+    position: absolute;
+    top: 4rem;
+    left: 1.6rem;
+    width: 2.053rem;
+    height:1.773rem;
+  }
+
+  .bottom-man{
+    position: absolute;
+    bottom: 0;
+    right: 1.4rem;
+    width: 2.173rem;
+    height: 4.34rem;
+  }
+
+  .brush{
+    position: absolute;
+    top: 1.466rem;
+    left: 1.133rem;
+    width: 1.573rem;
+    height: 1.72rem;
+  }
+
+  .sccisors{
+    position: absolute;
+    top: 7.733rem;
+    left: 0.266rem;
+    width: 1.12rem;
+    height: 1.253rem;
+  }
+
+  .year_end{
+    position: absolute;
+    top: 2.52rem;
+    right: 1.466rem;
+    width: 4.90rem;
+    height: 3.093rem;
+  }
+
+  .year_end_list{
+    position: absolute;
+    top: 8.533rem;
+    right: 1.6rem;
+    width: 3.893rem;
+    height: 0.773rem;
+  }
+
+  .count-list{
+    position: absolute;
+    top: 5.84rem;
+    left: 1.133rem;
+    width: 7.026rem;
+    height: 2.786rem;
+  }
+
+  // .next-slide{
+  //   position: absolute;
+  //   bottom: 0.266rem;
+  //   margin:0 auto;
+  //   left: 0;
+  //   right: 0;
+  //   width: 1.16rem;
+  //   height: 1.453rem;
+  // }
+
+}

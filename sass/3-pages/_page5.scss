@@ -1,0 +1,126 @@
+.page5{
+  padding-top: 0.2rem;
+  background-image: url("../imgs/bg_screen_5.png");
+  background-size: cover;
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .forward-2017{
+    position: relative;
+    background-image: url("../imgs/forward_2017_info_box.png");
+    text-align: center;
+    background-size: cover;
+    width: 8.08rem;
+    height: 6.07rem;
+    margin: 0 auto;
+    .title{
+      position: absolute;
+      top: 0.4rem;
+      font-size: 0.64rem;
+      color: #e44413;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      font-weight: bolder;
+    }
+    .details{
+      position: absolute;
+      top: 2rem;
+      font-size: 0.413rem;
+      color: #333333;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      line-height: 1.8;
+    }
+  }
+
+  .ad-container{
+    position: relative;
+    top: 0.31rem;
+
+    &::before{
+      display: block;
+      content: " ";
+      width: 0.04rem;
+      height: 0.39rem;
+      position: absolute;
+      top: -0.39rem;
+      background-color: #333333;
+      left: 4.133rem;
+    }
+    &::after{
+      display: block;
+      content: " ";
+      width: 0.04rem;
+      height: 0.39rem;
+      position: absolute;
+      top: -0.39rem;
+      background-color: #333333;
+      right: 4.133rem;
+    }
+
+    &.tcoin-con{
+      // disalbe this line in order to fit iphone5
+      top: 0.9rem;
+      // &::before{
+      //   top: -0.79rem;
+      //   height: 0.79rem;
+      // }
+      // &::after{
+      //   top: -0.79rem;
+      //   height: 0.79rem;
+      // }
+    }
+  }
+  .ad-wrap{
+    position: relative;
+    padding-top: 0.666rem;
+    width: 8.666rem;
+    height: 3.333rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 0.16rem;
+    border: 0.055rem solid #333333;
+    color: #333333;
+    .ad-des{
+      font-size: 0.55rem;
+      font-weight: bolder;
+      margin-bottom: 0.266rem;
+    }
+    .ad-title{
+      background-image: url("../imgs/btn_1.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 6.08rem;
+      background-position: center;
+      height: 1.066rem;
+      margin: 0 auto;
+      font-size: 0.52rem;
+      font-weight: bolder;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &.tcoin{
+        background-image: url("../imgs/btn_2.png");
+      }
+    }
+    &::after{
+      content: " ";
+      background-image: url("../imgs/screen5_btn_edge.png");
+      width: 8.6rem;
+      height: 3.466rem;
+      display: block;
+      background-size: contain;
+      position: absolute;
+      top: 0.16rem;
+      left: 0;
+      z-index: -1;
+      background-repeat: no-repeat;
+    }
+  }
+}

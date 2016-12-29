@@ -5,3 +5,7 @@ new PageSlider({
 $(document).ready(function () {
 
 })
+
+window.onload = function(){
+  $('.loading').remove();
+}
