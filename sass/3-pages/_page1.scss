@@ -5,6 +5,9 @@
     height: 100%;
     position: absolute;
     z-index: -1;
+    img{
+      height: auto;
+    }
   }
 
   img{
@@ -19,7 +22,7 @@
     left: 1.466rem;
     width: 6.8rem;
     height: 4.4rem;
-    font-size: 0.346rem;
+    font-size: 0;
     text-align: center;
     line-height: 1.8;
   }
@@ -35,7 +38,7 @@
   .bottom-man{
     position: absolute;
     bottom: 0;
-    right: 1.4rem;
+    right: 0.4rem;
     width: 2.173rem;
     height: 4.34rem;
   }
