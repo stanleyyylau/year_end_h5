@@ -3,9 +3,8 @@ html
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-    title 年尾活动h5
-    meta(name='keyword', content='关键词，关键词')
-    meta(name='description', content='年尾活动description')
+    title 蓝领关注·2016年终盘点 | 来看看今年蓝领行业有哪些变化
+    meta(name='description', content='2016年已成为过去时，让我们回顾一下蓝领的2016。')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
     meta(content='yes', name='apple-mobile-web-app-capable')
     meta(content='black', name='apple-mobile-web-app-status-bar-style')
@@ -16,11 +15,13 @@ html
   body
     .page-wrap
       .page.page1
-        .loading
-          img(src="../imgs/loading.gif")
+        .loading.container
+          .dot
+          .dot
+          .dot
         .background-img
           img(src="../imgs/bg_first_screen.png")
-        .blue-attention.animated
+        .blue-attention.animated.blue-attention-animated
           img(src="../imgs/blue_color_attention.png")
         .bottom-man
           img(src="../imgs/bottom_man.png")
@@ -61,7 +62,7 @@ html
             | …
             br
             | 或许都不是。
-        a(href="www.baidiu.com")
+        a(href="http://master.tounick.com/#!/study/detail/355")
           h3(class="headline") 城市服务业更赚钱？看看你的薪资水平在哪里
           .news-detail-wrap
             .img-wrap
@@ -71,7 +72,7 @@ html
               | 餐员，再到保姆、月嫂等…城市服
               | 务型的蓝领，在2016年频繁…
               | <span class="view-more">点击查看</span>
-        a(class="last-child", href="www.baidiu.com")
+        a(class="last-child", href="http://master.tounick.com/#!/study/detail/16")
           h3(class="headline") 95后蓝领报告，你的出路在哪里？
           .news-detail-wrap
             .img-wrap
@@ -96,7 +97,7 @@ html
             | 还是个人的心理健康问题，
             br
             | 都需要注意起来。
-        a(href="www.baidiu.com")
+        a(href="http://master.tounick.com/#!/study/detail/369")
           h3(class="headline") 2016广东蓝领事故不完全报告
           .news-detail-wrap
             .img-wrap
@@ -106,7 +107,7 @@ html
               | 不完全统计，广东共发生涉及生命
               | 安全的事故36起…
               | <span class="view-more">点击查看</span>
-        a(class="last-child", href="www.baidiu.com")
+        a(class="last-child", href="http://master.tounick.com/#!/study/detail/370")
           h3(class="headline") 今年第30跳 富士康跳楼事件回顾
           .news-detail-wrap
             .img-wrap
@@ -121,7 +122,7 @@ html
       .page.page3
         .three-man
           img(src="../imgs/three_man.png")
-        a(class="last-info-box", href="www.baidu.com")
+        a(class="last-info-box", href="http://master.tounick.com/#!/study/detail/395")
           h3.title 2016正能量篇
           p.details
             | 蓝领，包括制造业劳动者、地盘工人、
@@ -153,22 +154,22 @@ html
             | 还是个人的心理健康问题，
             br
             | 都需要注意起来。
-        a(class="ad-container", href="www.baidu.com")
+        a(class="ad-container", href="http://master.tounick.com/#!/study")
           .ad-wrap
             h4.ad-des 掌握揾食技能 、结交同道中人
             h3.ad-title.study 淘力师徒社区
-        a(class="ad-container tcoin-con", href="www.baidu.com")
+        a(class="ad-container tcoin-con", href="http://wechat.tounick.com/employer/tounick_coin/introduce.do")
           .ad-wrap
             h4.ad-des 整合短工资源，降低企业成本
             h3.ad-title.tcoin 淘力币兑换计划
         .next-slide.big
           img(src="../imgs/next_slide.png")
       .page.page6
-        a(class="ad-container", href="www.baidu.com")
+        a(class="ad-container", href="http://wechat.tounick.com/grats/login.do")
           .ad-wrap
             h4.ad-des 年轻蓝领更好的实习条件
             h3.ad-title.study 淘力千人实习计划
-        a(class="ad-container tcoin-con", href="www.baidu.com")
+        a(class="ad-container tcoin-con", href="http://q.eqxiu.com/s/YnOND462?eqrcode=1")
           .ad-wrap
             h4.ad-des 助蓝领圆海外就业移民梦
             h3.ad-title.tcoin 淘力澳洲就业移民
@@ -181,3 +182,7 @@ html
     script(src='/js/libs/zepto/zepto.min.js')
     script(src='/js/libs/PageSlider.js')
     script(src='/js/year_end.js')
+    script.
+      var title = "蓝领关注·2016年终盘点 | 来看看今年蓝领行业有哪些变化";
+      var description = "2016年已成为过去时，让我们回顾一下蓝领的2016。";
+      var coverImage = "../imgs/wechat_cover.png";

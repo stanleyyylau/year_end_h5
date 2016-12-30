@@ -12,7 +12,8 @@
     position: relative;
     margin: 0 auto;
     width: 8.08rem;
-    height: 6.12rem;
+    height: 6.125rem;
+    background-repeat: no-repeat;
     background-image: url("../imgs/screen2_info_box.png");
     background-size: contain;
     .title{
@@ -82,7 +83,8 @@
         content: " ";
         background-image: url(../imgs/title_bottom_edge.png);
         bottom: -0.213rem;
-        width: 9.45rem;
+        width: 9.4rem;
+        background-position: center;
         height: 0.96rem;
         display: block;
         background-size: cover;
@@ -100,7 +102,7 @@
       background-color: white;
       padding: 0.266rem;
       position: relative;
-      top: 0.133rem;
+      top: 0.13rem;
       border: 0.053rem solid #333333;
       border-top: 0;
       border-bottom-right-radius: 0.186rem;
